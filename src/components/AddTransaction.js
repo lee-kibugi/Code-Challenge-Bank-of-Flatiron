@@ -3,10 +3,7 @@ import React from 'react'
 function AddTransaction() {
   return (
     <div>
-
-
-
-        <div>Add Transaction</div>
+        <div style={{padding: '10px', fontWeight:'bold', fontSize:'large'}}>Add Transaction</div>
         <form>
             <label htmlFor="description">Description: </label>
             <br />
