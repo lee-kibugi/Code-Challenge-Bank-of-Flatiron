@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Financial Transaction Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a financial transaction management application developed by **LINDA KIBUGI**.
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+This project provides a web-based financial transaction management app. It consists of two main components:
 
-### `npm start`
+- **AddTransaction**: Allows users to add new financial transactions, specifying the description, category, amount, and date.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **DisplayTransactions**: Displays a list of transactions with search functionality to find specific transactions based on descriptions, categories, amounts, or dates.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run this application, you'll need to have the following prerequisites:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js: Ensure you have Node.js installed on your system.
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. ## Clone this repository to your local machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone <repository_urlhttps://github.com/lee-kibugi/Code-Challenge-Bank-of-Flatiron>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+2. ## Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash/terminal
+Copy code
+cd financial-transaction-app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. ## Install the required dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash/terminal
+Copy code
+npm install
+Usage
 
-## Learn More
+4. ## To start the application, run the following command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash/terminal
+Copy code
+npm start
+This will start the development server, and you can access the application in your web browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Components
+AddTransaction Component
+The AddTransaction component allows you to add new financial transactions. Key features include:
 
-### Code Splitting
+Input data validation to ensure that all required information is provided.
+Conversion of the amount to a numerical value.
+Submission of transaction data to a server using a POST request to http://localhost:4000/transactions.
+User feedback on the success or failure of the transaction submission.
+DisplayTransactions Component
+The DisplayTransactions component is responsible for displaying a list of transactions. Users can search for specific transactions using a search input field. Notable features of this component include:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Retrieval of transaction data from a server at http://localhost:4000/transactions.
+Search functionality that enables users to find transactions by descriptions, categories, amounts, or dates.
+Transaction list display in a tabular format.
+License
+This code is created by LINDA KIBUGI and is available under an open-source license. Please check the license information for further details.
 
-### Analyzing the Bundle Size
+## Author
+LINDA KIBUGI
+Feel free to customize and expand upon these components to fit your specific project requirements. For more detailed usage instructions or specific component documentation, please refer to individual component files.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
