@@ -118,34 +118,6 @@
       "category": "Gift",
       "amount": 3000,
       "id": 17
-    },
-    {
-      "date": "2023-11-09",
-      "description": "george",
-      "category": "Income",
-      "amount": 500,
-      "id": 18
-    },
-    {
-      "date": "2023-11-08",
-      "description": "kibugi",
-      "category": "Food",
-      "amount": 7666,
-      "id": 20
-    },
-    {
-      "description": "mary ",
-      "category": "fashion",
-      "amount": "6777",
-      "date": "21/06/2023",
-      "id": 21
-    },
-    {
-      "description": "mary ",
-      "category": "fashion",
-      "amount": "6777",
-      "date": "21/06/2023",
-      "id": 22
     }
   ]
 }
