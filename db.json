@@ -118,6 +118,20 @@
       "category": "Gift",
       "amount": 3000,
       "id": 17
+    },
+    {
+      "description": "mary ",
+      "category": "fashion",
+      "amount": "6777",
+      "date": "21/06/2023",
+      "id": 18
+    },
+    {
+      "description": "WERWERWER",
+      "category": "REREW",
+      "amount": "788",
+      "date": "21/06/2023",
+      "id": 19
     }
   ]
 }
